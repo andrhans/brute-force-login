@@ -26,4 +26,4 @@ def brute(username,url):
 with open(password_file, 'r') as passwords:
     brute(username,url)
 
-print("Password not found")
+print(colored("Password not found","red"))
